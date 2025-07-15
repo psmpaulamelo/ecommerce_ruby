@@ -1,0 +1,27 @@
+# Ignorar arquivos de log
+*.log
+log/
+
+# Ignorar arquivos temporários
+tmp/
+*.swp
+*.swo
+
+# Ignorar arquivos do sistema
+.DS_Store
+
+# Ignorar dependências do Bundler
+/vendor/bundle/
+
+# Ignorar banco de dados local
+*.sqlite3
+*.db
+
+# Ignorar resultados de testes e relatórios
+/reports/
+/screenshots/
+/coverage/
+
+# Ignorar variáveis de ambiente
+.env
+
